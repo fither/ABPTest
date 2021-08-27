@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace TestProject.Products
 {
-    public class Product: Entity<int>
+    public partial class Product: Entity<int>
     {
+
         public string Name { get; set; }
         public int Quantity{ get; set; }
     }
